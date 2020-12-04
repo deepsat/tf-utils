@@ -17,7 +17,7 @@ def create_arg_parser():
     )
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "input", required=True, type=Path, help="Path to Keras h5 model."
+        "input", type=Path, help="Path to Keras h5 model."
     )
     parser.add_argument(
         "--output",
